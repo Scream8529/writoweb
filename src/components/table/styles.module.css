@@ -1,0 +1,23 @@
+.table_container {
+  padding: 20px;
+}
+
+.table {
+  text-align: start;
+  vertical-align: baseline;
+}
+.table td {
+  padding: 7px 5px;
+}
+.header {
+}
+.header_ceil {
+  background-color: gray;
+}
+.body {
+}
+.body_row {
+}
+.body_ceil {
+  border-bottom: 1px solid black;
+}
