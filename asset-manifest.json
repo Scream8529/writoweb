@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/writoweb/static/css/main.5efa88ad.css",
+    "main.js": "/writoweb/static/js/main.06a469af.js",
+    "index.html": "/writoweb/index.html",
+    "main.5efa88ad.css.map": "/writoweb/static/css/main.5efa88ad.css.map",
+    "main.06a469af.js.map": "/writoweb/static/js/main.06a469af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5efa88ad.css",
+    "static/js/main.06a469af.js"
+  ]
+}
