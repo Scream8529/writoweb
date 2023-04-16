@@ -1,15 +1,13 @@
-import React from 'react';
-import { MainContainer } from './containers';
-import { MainLayout } from './layouts';
+import React from "react";
+import { MainLayout } from "./layouts";
+import Router from "./components/router";
 
 function App() {
-  return (
-    <div className="App">
-      <MainLayout>
-        <MainContainer />
-      </MainLayout>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Router />
+        </div>
+    );
 }
 
 export default App;
