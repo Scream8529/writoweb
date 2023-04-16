@@ -4,6 +4,8 @@ export default function fileParser(
     file: File,
     setState: (e: MineState) => void
 ) {
+    //TODO
+    //посмотреть на импортриуемые файлы может стоит просто отсейкать количество символов взамен этой большой конструкции
     let headers: string[] = [];
     let rows: string[][] = [];
     const fileReader = new FileReader();
@@ -16,7 +18,7 @@ export default function fileParser(
             .split("\n")
             .map((item) => item.split(";"));
         newFile[0].forEach((item: string, index: number) => {
-            if (index == newFile[0].length - 2) {
+            if (index === newFile[0].length - 2) {
                 return headers.push("Число снимков");
             }
             if (index > 0) {

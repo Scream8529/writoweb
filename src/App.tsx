@@ -1,5 +1,4 @@
 import React from "react";
-import { MainLayout } from "./layouts";
 import Router from "./components/router";
 
 function App() {

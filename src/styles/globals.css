@@ -9,3 +9,9 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+@media print {
+  * { -webkit-print-color-adjust: exact; }
+  nav{
+    display: none;
+  }
+}

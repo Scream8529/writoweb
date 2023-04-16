@@ -1,0 +1,22 @@
+.container{
+    padding: 10px 0;
+}
+.navigation{
+    display: flex;
+}
+.navigation__item{
+    list-style: none;
+}
+.navigation__item button{
+    background-color: unset;
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in;
+    border-radius: 7px;
+}
+.navigation__item button:hover{
+    background-color: #ededed;
+
+    text-decoration: underline;
+}

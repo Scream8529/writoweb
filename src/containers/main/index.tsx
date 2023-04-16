@@ -1,9 +1,10 @@
 import React, { ChangeEvent, useContext, useState } from "react";
-import saveAs from "file-saver";
+// import saveAs from "file-saver";
 import fileParser from "../../utilits/fileParser";
 import { MineState } from "../../models/state";
 import { StateContext } from "../../layouts/main";
 import { RouterContext } from "../../components/router";
+import InputFile from "../../components/input-file";
 
 const accept = ".wri";
 
@@ -25,19 +26,10 @@ export default function MainContainer() {
             fileParser(e.target.files[0], toggleAfterLoad);
         }
     }
-    function saver() {
-        //@ts-ignore
-        // const newBlob = new Blob(newFile, { type: " text/csv;charset=ansi" })
-        // saveAs(newBlob, 'asd.csv')
-    }
-    return (
-        <div>
-            <input
-                onChange={onChageInput}
-                type="file"
-                multiple={false}
-                accept={accept}
-            />
-        </div>
-    );
+    // function saver() {
+    //     @ts-ignore
+    //      const newBlob = new Blob(newFile, { type: " text/csv;charset=ansi" })
+    //      saveAs(newBlob, 'asd.csv')
+    // }
+    return <InputFile onChageInput={onChageInput} accept={accept} />;
 }
