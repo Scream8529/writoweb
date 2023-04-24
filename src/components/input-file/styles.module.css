@@ -1,22 +1,22 @@
-.container{
-    height: calc(100vh - 100px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.label{
-    cursor: pointer;
-    width: 200px;
-    height: 200px;
-    border: 2px dashed #333;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.label {
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #333;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.input{
-    display: none;
+.input {
+  display: none;
 }
